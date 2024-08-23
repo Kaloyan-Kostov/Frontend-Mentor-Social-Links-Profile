@@ -14,42 +14,74 @@
 
 body {
   font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   background-color: hsl(0, 0%, 8%);
   color: hsl(0, 0%, 100%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
 .card {
   background-color: hsl(0, 0%, 12%);
   text-align: center;
+  width: 325px;
+  border-radius: 5px;
 }
 
 .jessica {
+  margin-top: 2rem;
   border-radius: 50%;
   height: 80px;
 }
-.card li {
-  margin-bottom: 10px;
-}
 
-.card li.btn {
-  display: block;
-  padding: 10px;
-  text-decoration: none;
-  background-color: hsl(0, 0%, 20%);
-  color: hsl(0, 0%, 100%);
-  text-align: center;
-  border-radius: 5px;
-  border: none;
-  cursor: pointer;
+.name {
+  margin-bottom: 0rem;
 }
 
 .location {
   text-align: center;
   color: hsl(75, 94%, 57%);
+  font-size: 13px;
+  margin-top: 0rem;
+  margin-bottom: 1.5rem;
 }
 
 .occupation {
   text-align: center;
+  font-size: 12px;
+}
+
+.card li {
+  margin-bottom: 10px;
+}
+
+ul {
+  padding: 0rem;
+  padding-bottom: 1.25rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.card li.btn {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-block-start: 0;
 }
 
 .attribution {
@@ -58,4 +90,15 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+  .card {
+    width: 280px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .card {
+  }
 }
