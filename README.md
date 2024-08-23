@@ -23,7 +23,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [https://github.com/Kaloyan-Kostov/Frontend-Mentor-Social-Links-Profile](https://kaloyan-kostov.github.io/Frontend-Mentor-Blog-Preview-Card)
+- Solution URL: [https://github.com/Kaloyan-Kostov/Frontend-Mentor-Social-Links-Profile](https://kaloyan-kostov.github.io/Frontend-Mentor-Social-Links-Profile/)
 
 ## My process
 
